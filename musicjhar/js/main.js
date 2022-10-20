@@ -56,7 +56,7 @@ class musicPlayer {
 
   next() {
     // Obtener canción actual
-    const currentSong = this.mysong.src.split("/")[4];
+    const currentSong = this.mysong.src.split("/")[5];
     console.log(currentSong);
     let flag = false;
 
@@ -76,7 +76,7 @@ class musicPlayer {
 
   prev() {
     // Obtener canción actual
-    const currentSong = this.mysong.src.split("/")[4];
+    const currentSong = this.mysong.src.split("/")[5];
     console.log(currentSong);
 
     let flag = false;
